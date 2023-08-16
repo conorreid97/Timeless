@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1829807475322730}
+  m_IsPrefabParent: 1
+--- !u!1 &1829807475322730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4576268070863614}
+  - component: {fileID: 114486013465746286}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4576268070863614
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829807475322730}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114486013465746286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1829807475322730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c75bc15dd6c97443b536f3d94b84187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: d9fb0f0dc1498a9489f6a9c1e92e641a, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.786
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: ThemeMusic
+    clip: {fileID: 8300000, guid: d6ac1786ea5841641b5aa7d27c3152a9, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.668
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Throw
+    clip: {fileID: 8300000, guid: a06b2c1fddf994d40bc26f63d6139487, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.712
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pickup
+    clip: {fileID: 8300000, guid: c8d33dca0d46af1468c7b572720b58c0, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.26
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 2c83d6346680a164fa29b11386fe6044, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.556
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Slide
+    clip: {fileID: 8300000, guid: bbf9a3200460d3844b5c33d31d187134, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.556
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelComplete
+    clip: {fileID: 8300000, guid: f20a13671d9e86c4cadcba4fe2be0246, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.556
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Melee
+    clip: {fileID: 8300000, guid: 5bcd292f41bc37b4a93039efc9dfc02d, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.793
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AlienAttack
+    clip: {fileID: 8300000, guid: 5befb9f835960204490e2a60b0d51d63, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.793
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Blast
+    clip: {fileID: 8300000, guid: ee21138173131d9409c8ff52921035ed, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.597
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 356b361b0544b7d4889c54837e153447, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.597
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AcidSplash
+    clip: {fileID: 8300000, guid: 803747a76ddbcca46b5880967d6e46b3, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.597
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WaterSplash
+    clip: {fileID: 8300000, guid: 2a7d747a726ff444e8f04014a4477a10, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.597
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: bc3bcb4f70556274e80d023b9b6d4ddb, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 0.597
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LifePickup
+    clip: {fileID: 8300000, guid: ae903a0521605c740a6efd4cc3aa3338, type: 3}
+    audioMixerGroup: {fileID: 24300002, guid: edd86738fba057547b5c2e55b3f4638b, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

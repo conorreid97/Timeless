@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Edge
+  - Sword
+  - EnemyAttack
+  - Enemy
+  - Coin
+  - Acid
+  - Spike
+  - Heart
+  - Saw
+  - PowerUp_Run
+  - PowerUp_Jump
+  - PowerUp_Shoot
+  - Bullet
+  - PowerUp1
+  - PickUp_Grenade
+  - Grenade
+  - BossAttack
+  - Water
+  - PortalGun
+  - Checkpoint
+  - Blast
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - NotGround
+  - Platform
+  - Falling
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
